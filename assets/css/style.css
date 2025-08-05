@@ -18,7 +18,13 @@ p{
 .w60{
   width: 60%;
 }
+.mt-special{
+  margin-top: -70px;
+}
 
+.mt-special2{
+  margin-top: -20px;
+}
 .nav-link{
   color: #fff;
 }
