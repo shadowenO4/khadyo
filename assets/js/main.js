@@ -3,12 +3,13 @@
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 50) {
-    navbar.style.backgroundColor = "#cc3333"; 
-    navbar.style.transition = "background-color 0.3s ease";
+    navbar.style.boxShadow = "0 4px 10px rgba(0,0,0,0.3)"; // shadow
+    navbar.style.transition = "box-shadow 0.3s ease";
   } else {
-    navbar.style.backgroundColor = "transparent";
+    navbar.style.boxShadow = "none";
   }
 });
+
 
 
 const modal = document.createElement("div");
